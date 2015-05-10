@@ -32,10 +32,11 @@ getPowerData <- function(){
 
 powerdata <- getPowerData()
 
-## Create histogram for Global_active_power
-plot(powerdata$DateTime, powerdata$Global_active_power, type = "l", , xlab="", ylab="Global Active Power (kilowatts)")
+## Open Graphic Device png
+png(filename="plot2.png", width=480, height=480, units="px", bg="white")
 
-## Copy plot to PNG file with a width of 480 pixels and a height of 480 pixelx
-dev.copy(png, file="plot2.png", width=480, height=480)
+## Create plot for Global_active_power
+plot(powerdata$DateTime, powerdata$Global_active_power, type = "l", xlab="", ylab="Global Active Power (kilowatts)")
+
 ## Close graphics Device
 dev.off()
