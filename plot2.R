@@ -9,7 +9,7 @@
 setwd("~/Coursera/Exploratory Data Analysis/Week1 - PA1")
 getwd()
 
-## Setting locale Time en English from Spanish
+## Setting locale Time to English from Spanish
 Sys.setlocale(category = "LC_TIME", "en_US.UTF-8")
 
 ## Function to Getting and cleaning Data
