@@ -36,9 +36,6 @@ web site</a>:
 ## Loading the data
 
 
-
-
-
 When loading the dataset into R, please consider the following:
 
 * The dataset has 2,075,259 rows and 9 columns. First
@@ -57,6 +54,7 @@ functions.
 
 * Note that in this dataset missing values are coded as `?`.
 
+<b>Note</b>: "ExpAnalysisDownload.R" is included to download and unzip file dataset in working directory
 
 ## Making Plots
 
