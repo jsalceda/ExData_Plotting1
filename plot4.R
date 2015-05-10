@@ -51,8 +51,8 @@ plot(powerdata$DateTime, powerdata$Sub_metering_1, type = "l", xlab = "", ylab="
 lines(powerdata$DateTime, powerdata$Sub_metering_2, type = "l", col = "red")
 lines(powerdata$DateTime, powerdata$Sub_metering_3, type = "l", col = "blue")
 ## Added legends to plot
-legend("topright",c("Sub Metering 1","Sub Metering 2", "Sub Metering 3"),
-       lty=c(1,1,1),lwd=c(2.5,2.5,2.5), bty="n", 
+legend("topright",c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"),
+       lty=c(1,1,1),lwd=c(1,1,1), bty="n", 
        col=c("black","blue","red"))
 
 ## Figure 4:
